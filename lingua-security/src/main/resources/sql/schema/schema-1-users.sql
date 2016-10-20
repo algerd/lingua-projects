@@ -1,0 +1,7 @@
+DROP TABLE IF EXISTS users;
+CREATE TABLE users (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  username VARCHAR(30) NOT NULL,
+  password BINARY(60) NOT NULL,
+  UNIQUE KEY uk_username(username)
+);
