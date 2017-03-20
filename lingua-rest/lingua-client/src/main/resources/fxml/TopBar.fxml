@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+
+<AnchorPane fx:id="topBar" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.javafx.lingua.client.controller.TopBarController">
+    <children>
+        <HBox spacing="5.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <children>
+            <Button mnemonicParsing="false" onAction="#showWords" text="Words" />
+               <Button mnemonicParsing="false" onAction="#showItem1" text="Item1" />
+               <Button mnemonicParsing="false" onAction="#showItem2" text="Item2" /> 
+               <Button mnemonicParsing="false" onAction="#showDialog" text="Dialog" />         
+            </children>
+            <opaqueInsets>
+               <Insets />
+            </opaqueInsets>
+            <padding>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+            </padding>
+        </HBox>
+    </children>
+</AnchorPane>
